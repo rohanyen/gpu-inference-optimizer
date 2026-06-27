@@ -6,6 +6,12 @@
 ![TensorRT](https://img.shields.io/badge/TensorRT-11.1-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+## Live Demo
+
+[![GPU Inference Optimizer Live Demo](https://img.youtube.com/vi/6bMOqUZUfYs/0.jpg)](https://youtu.be/6bMOqUZUfYs)
+
+**TensorRT: 71 FPS / 2ms** vs **PyTorch: 36 FPS / 16ms** — 6.48x live speedup on real webcam feed.
+
 ## Key Results
 
 | Method | Latency | FPS | Speedup | Jitter |
@@ -87,7 +93,6 @@ WCET (avg + 3sigma): TRT+CUDA Graph = 4.98ms (best)
 | Tesla/Waymo | Real-time guarantees, ADAS perception pipeline |
 
 ## Project Structure
-
 ## Key Insights
 
 1. Custom CUDA kernels: 92x over OpenCV via shared memory tiling
